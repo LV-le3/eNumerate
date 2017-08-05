@@ -1,0 +1,19 @@
+h3 {
+	
+	font-family: 'The Girl Next Door', cursive;
+}
+
+#nb {
+	opacity: 0.4;
+}
+
+
+.jumbotron {
+	text-align: center;
+	background-color: transparent;
+}
+
+#polaroid {
+	font-family: 'Homemade Apple', cursive;
+	color: rgb(53,112,232);
+}
