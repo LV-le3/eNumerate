@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add An Item</title>
+		<!-- Bootstrap -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- /Bootstrap -->
+
+		
+		<!-- CSS Page -->
+		<link rel="stylesheet" type="text/css" href="../public/CSS/contactus.css">
+
+
+
+
+</head>
+<body style="background-color: rgb(180,180,180);">
+
+<div>
+
+
+
+<div>
+	<nav id="nb" class="navbar navbar-default">
+  		<div class="container-fluid">
+			
+    		    <!-- <a class="navbar-brand" href="#"></a> -->
+     
+        		<ul class="nav navbar-nav navbar-right">
+        		<li><a href="index.html">Home</a></li>
+        		<li><a href="about.html">About</a></li>
+        		<li><a href="team.html">Team</a></li>
+     			<li><a href="#">Log Out</a></li>
+        		</ul>
+      			
+      			
+      			
+    	</div>
+	</nav>
+	
+
+
+
+<div class="jumbotron">
+		<img id="logo" alt="eNumLogo" src="../public/Images/eNumLogo4.png"">
+		<h4><strong>Add An Item Below</strong></h4> 
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+  </div>  
+</div>  
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6"></div>
+  
+					<center>
+					<form id = "asset-form">
+							<div class="form-group">
+								<label for="itemName">
+								Category</label>
+								<select name="category" id="category">
+									<option value="Appliances">Appliances</option>
+									<option value="Electronics">Electronics</option>
+									<option value="Tools">Tools</option>
+									<option value="Vehicles">Vehicles</option>
+									<option value="Antiques/Artworks">Antiques/ Artworks</option>
+									<option value="Clothing/Bags">Clothing/ Bags</option>
+									<option value="Jewerly/Watches">Jewerly/ Watches</option>
+									<option value="Other">Other</option>
+								</select>
+							</div>
+					<div id="form-text">		
+				    		<div class="form-group">
+								<label for="itemName">Item Name</label>
+								<input class="form-control" id="itemName" placeholder="itemName">
+							</div>
+								    
+							<div class="form-group">
+								<label for="Manufacturer/ Brand">Make</label>
+								<input class="form-control" id="make" placeholder="Manufacturer/ Brand">
+							</div>
+
+							<div class="form-group">
+								<label for="modelNumber">Model</label>
+								<input class="form-control" id="model" placeholder="Model">
+							</div>
+							
+							<div class="form-group">
+								<label for="serialNumber">Serial Number</label>
+								<input class="form-control" id="serialNumber" placeholder="serialNumber">
+							</div>
+								   
+							<div class="form-group">
+								<label for="price">Price</label>
+								<input class="form-control" id="price" placeholder="price">
+							</div>
+
+							<div class="form-group">
+								<label for="datePurchased">Date Purchased</label>
+								<input class="form-control" id="date" placeholder="YYYY-MM-DD">
+							</div>
+
+							<div class="form-group">
+								<label for="addInfo">Additional Information</label>
+								<textarea class="form-control" rows="3" id="itemInfo"></textarea>
+							</div>
+					</div>
+							<button type="submit" class="btn btn-danger">
+								Submit
+							</button>
+				    	</form>
+				    	</center>
+	  </div>
+</div>	
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+  </div> 				
+</div>
+
+<div>
+	<footer>
+		<br>
+		<br>
+	</footer>
+</div>
+
+		</div>
+	</body>
+</html>

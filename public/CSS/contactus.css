@@ -1,6 +1,6 @@
 /*about.html*/
 #about-body{
-background-image: url(../Images/antique-2.jpg);
+background-image: url("../Images/antique-2.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -26,7 +26,7 @@ font-family: 'Mate SC', serif;
 /*TEAM HTML PAGE CSS*/
 
 #team-body{
-background-image: url(../Images/antique-3.jpg);
+background-image: url("../Images/wall.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -223,4 +223,17 @@ background: rgba(255, 255, 255, 0.2);
 }
 #bkimage {
 background-image: url("../Images/phone.jpeg");
+}
+
+
+
+/*itemsForm CSS STYLING PAGE*/
+h4 {
+  color: rgb(255,86,114);
+}
+
+
+#form-text {
+  font-family: georgia;
+  font-size: 20px;
 }
