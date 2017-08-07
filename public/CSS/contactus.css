@@ -36,8 +36,26 @@ height:500px;
 opacity:.95;
 }
 
+.about-content {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+.about-story {
+    text-align: center;
+    padding-top: 20px;
+    width: 700px;
+    height: 120px;
+    margin-left: 27%;
+    font-size: 22px;
+    display: inline-flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .team-container-about {
-    padding-top: 100px;
+    padding-top: 5px;
 }
 .card-container-bios {
     display: inline-flex;
