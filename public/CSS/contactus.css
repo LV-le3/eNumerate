@@ -255,3 +255,19 @@ h4 {
   font-family: georgia;
   font-size: 20px;
 }
+
+
+/*Signup HTML CSS STYLING*/
+ #signup-image{
+background-image: url("../Images/shredbox.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+
+ }
+
+#landingPageTitle{
+margin-top:20px;
+margin-bottom:50px;
+
+}
